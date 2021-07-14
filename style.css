@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* section first */
+body{
+    background-blend-mode: multiply;
+    background: #80808000 url("images/back1.jpg")  no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.menu{
+    height: 41px;
+    /* position: absolute; */
+    top: 60px;
+    left: 50px; 
+    position: fixed;   
+}
+/* navbar */
+.navtop{
+    background-color:  #ffffff5e;
+    height: 90vh;
+    width: 300px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 22px 3px #00000070;
+    
+}
+ul{
+   
+  display: flex;
+  flex-direction: column;
+  margin-top: 131px;
+  margin-left: 50px;
+  list-style: none;
+  /* height: 400px; */
+
+}
+ul li{
+    margin: 20px;
+    font-size: 23px;
+    /* margin:5px; */
+    font-weight: bold;
+    
+}
+ul a{
+
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px 10px 15px ;
+}
+ul a:hover{
+    color: black;
+    font-size: 22px;
+    border: 3px solid black;
+
+}
+
+
+.block{
+    display: grid;
+    justify-content: flex-end;
+    grid-template-columns: auto auto;
+    margin-top: 189px;
+    margin-right: 70px;
+    font-style: italic;
+   
+}
+.block div{
+    /* grid-row: 2; */
+   
+    height: 200px;
+    background-color:  #ffffffc7;
+    width: 350px;
+    margin: 5px;
+    text-align: center;
+    cursor: pointer;
+    /* position: fixed; */
+    
+}
+.block div:hover {
+      background-color: white;
+}
+#block1 img{
+    height: 90px;
+    margin-top: 5px;
+}
+#block2 img{
+    margin-top: 10px;
+    height: 70px;
+}
+#block3 img{
+    margin-top: 10px;
+    height: 70px;
+}
+#block4 img{
+    margin-top: 10px;
+    height: 70px;
+}
+.block div h2{
+    margin-bottom: 18px;
+}
+.logo{
+    height: 80px;
+}
+
+
+.logotop{
+    position: absolute;
+    display: flex;
+    right: 60px;
+    top: 5px;
+    margin: 36px;
+    height: 82px;
+}
+.logotop p{
+    
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 21px;
+    margin-left: 5px;
+}
+    
+.foot{
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    color: white;
+    text-align: center;
+    height: 20px;
+}
